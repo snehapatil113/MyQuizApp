@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* User Info Neon Box */
+.userInfo {
+  background-color: #0c0c0c;
+  border: 2px solid #00ffcc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  /* box-shadow: 0 0 15px #00ffcc, 0 0 30px #00ffcc; */
+  text-align: center;
+}
+
+.userInfo p {
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #00ffcc;
+  /* text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc; */
+}
+
+
+.scorePage {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    border: 2px solid #00FFAB; /* Neon green border */
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+.quiz {
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quiz ul li {
+    display: flex;
+    align-items: center;
+    border: 1px solid #00FFAB; /* Neon green border */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1); /* Light transparency effect */
+    width: 500px;
+    transition: all 0.3s ease;
+}
+
+.quiz ul li.selected {
+    background-color: #00FFAB; /* Neon green */
+    color: black; /* Neon text effect */
+}
+
+.quiz button {
+    padding: 10px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: #00FFAB; /* Neon green */
+    color: black;
+    border: 1px solid #00FFAB;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.quiz button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+    border-color: #00FFD2; /* Slightly lighter neon green border */
+    cursor: pointer;
+}
+
